@@ -10,3 +10,6 @@ Zie [GildedRoseRequirements.txt](GildedRoseRequirements.txt)
 ### Aanpassingen
 - Upgrade naar JUnit 5
 - Toevoegen/vervangen van testen gebaseerd op de [originele texttests](https://github.com/emilybache/GildedRose-Refactoring-Kata/tree/master/texttests)
+
+### En verder
+- [Stories](doc/stories.md)
