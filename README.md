@@ -1,4 +1,4 @@
-# Kata Gilded Rose
+# Kata Gilded Rose - Workshop 20190528
 ---
 
 ### Doel
