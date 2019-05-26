@@ -11,9 +11,9 @@
 
 Bron: [Wikipedia](https://en.wikipedia.org/wiki/Mob_programming)
 
-###Enkele punten
+### Enkele punten
 
-####Driver/Navigators pattern
+#### Driver/Navigators pattern
 
 >In this “Driver/Navigator” pattern, the Navigator is doing the thinking about the direction the team wants to go, and then verbally describes and discusses the next steps of what the code must do. The Driver is translating the spoken English into code. In other words, all code written goes from the brain and mouth of the Navigator through the ears and hands of the Driver into the computer.
 >
@@ -25,7 +25,7 @@ Bron: [Wikipedia](https://en.wikipedia.org/wiki/Mob_programming)
 >
 Bron (met hier en daar wat aanpassingen): [https://mobprogramming.org/mob-programming-basics/](https://mobprogramming.org/mob-programming-basics/)
 
-####Rotation
+#### Rotation
 
 >Rotate the Driver every 15 minutes - the current Driver moves away from the keyboard and joins the Navigators, and the next person moves to the keyboard to start typing.
 
