@@ -6,7 +6,9 @@
 ### Definitie
 
 >**Mob programming** is a software development approach where the whole team works on the same thing, at the same time, in the same space, and at the same computer.
+
 ...
+
 >In addition to software coding, a mob programming team can work together to do almost all the work a typical software development team tackles, such as defining user stories or requirements, designing, testing, deploying software, and working with the customer and business experts. Almost all work is handled in working meetings or workshops, and all the people involved in creating the software are considered to be team members, including the customer and business experts.
 
 Bron: [Wikipedia](https://en.wikipedia.org/wiki/Mob_programming)
