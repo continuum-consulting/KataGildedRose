@@ -2,7 +2,7 @@
 ---
 
 ### Omschrijving
-Introduceer mechanisme van category handlers
+Introduceer een mechanisme van category handlers.
 
 ### Detail
 - gebruik een Factory Method design pattern om daarmee een category handler te bepalen.
