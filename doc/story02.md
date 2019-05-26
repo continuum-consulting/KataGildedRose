@@ -2,15 +2,18 @@
 ---
 
 ### Omschrijving
-...
+Refactor de if-constructie in de GildedRose#updateQuality methode.
 
 ### Detail
-...
+- voorzie een code block per category.
 
 ### Acceptatie criteria
-De testen blijven functioneren.
+- de testen blijven functioneren.
+- code coverage: 100%
 
+### Aandachtspunten
+- hou rekening met de gebruikte terminologie in de [requirements](GildedRoseRequirements.txt).
 
 ***
-[Vorige story](story01.md) - [Overzicht stories](stories.md)
+[Vorige story](story01.md) - [Overzicht stories](stories.md) - [Volgende story](story03.md)
 
