@@ -12,6 +12,7 @@
 Bron: [Wikipedia](https://en.wikipedia.org/wiki/Mob_programming)
 
 ###Enkele punten
+
 ####Driver/Navigators pattern
 
 >In this “Driver/Navigator” pattern, the Navigator is doing the thinking about the direction the team wants to go, and then verbally describes and discusses the next steps of what the code must do. The Driver is translating the spoken English into code. In other words, all code written goes from the brain and mouth of the Navigator through the ears and hands of the Driver into the computer.
