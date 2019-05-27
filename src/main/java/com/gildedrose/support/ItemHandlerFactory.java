@@ -18,6 +18,7 @@ public class ItemHandlerFactory {
         SPECIALIZED_ITEM_HANDLER_CONSTRUCTORS.put("Aged Brie", AgedBrieItemHandler::new);
         SPECIALIZED_ITEM_HANDLER_CONSTRUCTORS.put("Backstage passes to a TAFKAL80ETC concert", BackstagePassesItemHandler::new);
         SPECIALIZED_ITEM_HANDLER_CONSTRUCTORS.put("Sulfuras, Hand of Ragnaros", SulfurasItemHandler::new);
+        SPECIALIZED_ITEM_HANDLER_CONSTRUCTORS.put("Conjured Mana Cake", ConjuredItemHandler::new);
     }
 
 
