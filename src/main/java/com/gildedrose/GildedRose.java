@@ -16,18 +16,28 @@ class GildedRose {
                 handleAgedBrie(item);
             } else if (isBackstagePass(item)) {
                 handleBackstagePass(item);
+            } else if (isConjured(item)) {
+                handleConjured(item);
             } else {
-                handleRegularItem(item);
+                handleRegular(item);
             }
         }
+    }
 
+    private void handleConjured(Item item) {
+        tryToAdjustQuality(item, -2);
+        item.sellIn = item.sellIn - 1;
+
+        if (item.sellIn < 0) {
+            tryToAdjustQuality(item, -2);
+        }
     }
 
     private void handleLegendary() {
         //do nothing
     }
 
-    private void handleRegularItem(Item item) {
+    private void handleRegular(Item item) {
         tryToDecreaseQualityByOne(item);
         item.sellIn = item.sellIn - 1;
 
@@ -74,8 +84,8 @@ class GildedRose {
         return item.name.equals("Sulfuras, Hand of Ragnaros");
     }
 
-    private boolean isLowerThanMaxQuality(Item item) {
-        return item.quality < MAX_QUALITY;
+    private boolean isConjured(Item item) {
+        return item.name.equals("Conjured Mana Cake");
     }
 
     private void increaseQualityByOne(final Item item) {
